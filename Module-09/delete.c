@@ -9,7 +9,7 @@ int main(){
     int index;
     scanf("%d",&index);
 
-    for(int i=index+1;i<=n;i++){
+    for(int i=index+1;i<n;i++){
         a[i-1] = a[i];
     }
     
