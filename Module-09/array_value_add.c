@@ -11,7 +11,7 @@ int main()
     int indx, value;
     scanf("%d %d", &indx, &value);
 
-    for (int i = n; i >= indx; i--)
+    for (int i = n; i >= indx+1; i--)
     {
         A[i] = A[i - 1];
     }
