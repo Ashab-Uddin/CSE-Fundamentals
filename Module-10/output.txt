@@ -1,1 +1,1 @@
-Length of this string: 5
+5
