@@ -6,7 +6,7 @@ int main(){
     int f=n*n-1;
    }
    printf("%d",f);
-   
+   printf("%d",m);
 
     return 0;
 }
