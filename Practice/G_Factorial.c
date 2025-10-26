@@ -1,12 +1,16 @@
 #include<stdio.h>
 int main(){
-   int n,m,x,f;
-   scanf("%d %d %d",&n,&m,&x);
-   for(int i=n;i>=0;i--){
-    int f=n*n-1;
+   int n,m,x,f=1;
+   scanf("%d",&n);
+   for(int i=0;i<n;i++){
+    scanf("%d %d",&m,&x);
+   for(int i=1;i<m;i++){
+    f=n*(n-i);
    }
-   printf("%d",f);
-   printf("%d",m);
+   printf("%d ",f);
+   }
+   
+   
 
     return 0;
 }
