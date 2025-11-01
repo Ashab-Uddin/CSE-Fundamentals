@@ -14,6 +14,9 @@ int main(){
         if(a[i]+a[j] == x){
             printf("YES");
         }
+        else{
+            printf("NO");
+        }
     }
    }
     return 0;
