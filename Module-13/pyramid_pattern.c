@@ -13,7 +13,7 @@ int main()
         }
         for (int j = 1; j <= star; j++) // for print star
         {
-            printf("* ");
+            printf("*");
         }
         printf("\n");
         star += 2;
