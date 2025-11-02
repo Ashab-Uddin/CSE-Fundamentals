@@ -8,6 +8,7 @@ int main(){
     int r3 = round(4.2);
     double s = sqrt(20);
     int p = pow(3,2);
+    int as = abs(-20);
    printf("4.3 Ceilling Value:%d\n",c);
    printf("4.3 Floor Value:%d\n",f);
    printf("4.5 round valur:%d\n",r);
@@ -15,5 +16,6 @@ int main(){
    printf("4.2 round value:%d\n",r3);
    printf("20 square value:%lf\n",s);
    printf("3^2 power value:%d\n",p);
+   printf("-20 absulate value:%d\n",as);
     return 0;
 }
