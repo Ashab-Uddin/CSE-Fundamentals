@@ -1,7 +1,6 @@
 #include<stdio.h>
 void sumit(int x,int y){
 printf("%d",x+y);
-    return ;
     
 }
 int main(){
