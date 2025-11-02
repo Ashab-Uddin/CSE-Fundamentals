@@ -4,3 +4,4 @@
 4.6 round value:5
 4.2 round value:4
 20 square value:4.472136
+3^2 power value:9
