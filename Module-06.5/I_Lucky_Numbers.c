@@ -5,7 +5,7 @@ int main(){
    int f = n/10;;
    int l = n%10;
 
-   if(n%f == 0 || n%l == 0){
+   if(l%f == 0 || f%l == 0){
     printf("YES");
    }
    else{

@@ -1,1 +1,2 @@
-300
+sumit function:- 20
+main function:- 10
