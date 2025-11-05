@@ -28,7 +28,7 @@ int main()
     space = 0;      
     for (int i = 1; i <= n; i++)
     {
-        for (int k = 0; k < space; k++) // fixed here
+        for (int k = 0; k < space; k++) 
         {
             printf(" ");
         }
