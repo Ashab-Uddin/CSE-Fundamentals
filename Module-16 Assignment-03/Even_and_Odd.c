@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-void odd_even(int A[], int N) {
+void odd_even() {
+     int N;
+    scanf("%d", &N);
+    int A[N];
     
     for (int i = 0; i < N; i++) {
         scanf("%d", &A[i]);
@@ -21,12 +24,8 @@ void odd_even(int A[], int N) {
 }
 
 int main() {
-    int N;
-    scanf("%d", &N);
-    int A[N];
-
-    
-    odd_even(A, N);
+   
+    odd_even();
 
     return 0;
 }
