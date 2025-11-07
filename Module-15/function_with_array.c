@@ -5,6 +5,9 @@ void fun(int a[]){
     printf("fun:%p\n",a);
 }
 int main(){
+
+    //array works pass by reference--always
+    //int works pass by value--Generally
    int a[5]={10,20,30,40,50};
    printf("main:%p\n",a);
    fun(a);
