@@ -1,5 +1,2 @@
- main value:10
-fun value:20
-fun value address:6422092
-main function value:20
-main fun valude address:000000000061FE4C
+000000000061FE30
+000000000061FE30
