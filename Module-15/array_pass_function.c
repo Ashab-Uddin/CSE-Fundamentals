@@ -11,6 +11,6 @@ int main(){
    for(int i=0;i<n;i++){
     scanf("%d",&a[i]);
    }
-   fun(a,n)
+   fun(a,n);
     return 0;
 }
