@@ -23,6 +23,6 @@ void printN(int i,int n){
 int main(){
    int i=1,n;
    scanf("%d",&n);
-   printN(i,n);
+   printN(i,n+1);
     return 0;
 }
