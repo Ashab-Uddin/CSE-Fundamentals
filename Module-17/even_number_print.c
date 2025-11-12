@@ -1,6 +1,6 @@
 #include<stdio.h>
 void printEven(int i,int n){
-     if(i==n+1){
+     if(i>n){
         return;
     }
     if(i%2 ==0){
