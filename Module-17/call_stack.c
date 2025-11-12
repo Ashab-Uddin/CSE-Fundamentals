@@ -9,6 +9,7 @@ void kello(){
 }
 void hello(){
     printf("Hello\n");
+    mello();
 }
 
 int main(){
