@@ -6,10 +6,7 @@ void mello(){
 void gello(){
     printf("Gello\n");
 }
-void hello(){
-    printf("Hello\n");
-    gello();
-}
+
 int main(){
    printf("Hi!\n");
    hello();
