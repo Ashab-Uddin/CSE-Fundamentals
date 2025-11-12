@@ -1,16 +1,17 @@
 #include<stdio.h>
-void printEven(int n,int i){
+void printEven(int i){
+     if(i==100){
+        return;
+    }
     if(i%2 ==0){
         printf("%d\n",i);
     }
-    if(i==n){
-        return;
-    }
-    printEven(i+1,n);
+   
+    printEven(i+1);
 }
 int main(){
-   int n;
-   scanf("%d",&n);
-   printEven(n,1);
+//    int n;
+//    scanf("%d",&n);
+   printEven(1);
     return 0;
 }
