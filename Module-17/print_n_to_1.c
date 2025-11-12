@@ -1,7 +1,7 @@
 #include<stdio.h>
 void printN(int i,int n){
-    if(n==1){
-        printf("%d\n",n);
+    if(n==0){
+        
         return;
     }
     printf("%d\n",n);
