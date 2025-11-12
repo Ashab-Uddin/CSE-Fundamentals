@@ -1,9 +1,10 @@
 #include<stdio.h>
 void printN(int i,int n){
-    if(i==1){
+    if(n==1){
+        printf("%d\n",n);
         return;
     }
-    printf("%d",n);
+    printf("%d\n",n);
     printN(i,n-1);
 }
 int main(){
