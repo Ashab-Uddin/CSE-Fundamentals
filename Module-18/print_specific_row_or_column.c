@@ -1,5 +1,6 @@
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
+
 {
     int r, c;
     scanf("%d %d", &r, &c);
@@ -27,4 +28,7 @@ int main()
     }
 
     return 0;
-}
+}*/
+
+//smart way to pritf specific row ro column
+
