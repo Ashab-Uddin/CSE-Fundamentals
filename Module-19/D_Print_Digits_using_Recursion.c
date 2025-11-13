@@ -9,8 +9,14 @@ void rec(int n){
     
 }
 int main(){
-   int n;
-   scanf("%d",&n);
-   rec(n);
+   int t;
+   scanf("%d",&t);
+   for(int i=0;i<t;i++){
+    int n;
+    scanf("%d",&n);
+    rec(n);
+    printf("\n");
+    
+   }
     return 0;
 }
