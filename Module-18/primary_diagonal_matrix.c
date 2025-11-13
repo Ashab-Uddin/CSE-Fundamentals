@@ -23,18 +23,21 @@ int main()
                 else{
                     if(a[i][j] != 0){
                         flag=0;
-                        printf("This is not a Diagonal matrix\n");
+                        
                     }
                 }
             }
         }
         if(flag==1){
-            printf("This is a Diagonal Matrix\n");
+            printf("This is a Primary Diagonal Matrix\n");
+        }
+        else{
+            printf("This is not a Primary Diagonal Matrix\n");
         }
         
     }
     else{
-        printf("This is not a Diagonal Matrix\n");
+        printf("This is not a Primary Diagonal Matrix\n");
     }
 
 
