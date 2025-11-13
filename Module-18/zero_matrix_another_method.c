@@ -5,6 +5,7 @@ int main()
     int r, c;
     scanf("%d %d", &r, &c);
     int a[r][c];
+    int total_element = r*c;
     for (int i = 0; i < r; i++)
     {
         for (int j = 0; j < c; j++)
@@ -12,22 +13,22 @@ int main()
             scanf("%d", &a[i][j]);
         }
     }
-    int f=0;
+    int zero=0;
     for (int i = 0; i < r; i++)
     {
         for (int j = 0; j < c; j++)
         {
             if (a[i][j] == 0)
             {
-               f=1 ;
+               zero++ ;
             }
             
         }
     }
-    if(f==0){
-        printf("This is not Zero Matrix\n");
+    if(zero==total_element){
+        printf("This is a Zero Matrix\n");
     }
     else{
-        printf("This is a Zero Matrix\n");
+        printf("This is not a Zero Matrix\n");
     }
 }
