@@ -14,6 +14,9 @@ int main(){
    for(int i=0;i<t;i++){
     int n;
     scanf("%d",&n);
+    if(n==0){
+        printf("0");
+    }
     rec(n);
     printf("\n");
     
