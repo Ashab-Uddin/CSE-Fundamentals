@@ -4,8 +4,9 @@ void rec(int n){
         return;
     }
     int last =n%10;
-    printf("%d ",last);
     rec(n/10);
+    printf("%d ",last);
+    
 }
 int main(){
    int n;
