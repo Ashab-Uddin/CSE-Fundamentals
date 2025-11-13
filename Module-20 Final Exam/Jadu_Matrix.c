@@ -17,11 +17,14 @@ int main()
         }
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
-                if(i==j){
+                if(i==j || i+j == r-1){
                     // digonal
+                    if(a[i][j] != 1){
+                        flag =0;
+                    }
                 }
                 else{
-                    if(a[i][j] != 0){
+                    if(a[i][j] != 0 ){
                         flag=0;
                         
                     }
@@ -29,15 +32,15 @@ int main()
             }
         }
         if(flag==1){
-            printf("This is a Primary Diagonal Matrix\n");
+            printf("YES\n");
         }
         else{
-            printf("This is not a Primary Diagonal Matrix\n");
+            printf("NO\n");
         }
         
     }
     else{
-        printf("This is not a Primary Diagonal Matrix\n");
+        printf("NO\n");
     }
 
 
