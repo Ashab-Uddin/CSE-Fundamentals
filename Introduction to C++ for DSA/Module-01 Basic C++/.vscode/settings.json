@@ -59,4 +59,9 @@
   "files.associations": {
     "iostream": "cpp"
   }
+  ,
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "cpp": "bash -lc '\"D:/MinGW/bin/g++.exe\" -std=c++17 \"$1\" -o \"$2/$3.exe\" && \"$2/$3.exe\"' dummy \"$file\" \"$dir\" \"$fileNameWithoutExt\""
+  }
 }
