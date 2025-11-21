@@ -55,13 +55,5 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "files.associations": {
-    "iostream": "cpp"
-  }
-  ,
-  "code-runner.runInTerminal": true,
-  "code-runner.executorMap": {
-    "cpp": "bash -lc '\"D:/MinGW/bin/g++.exe\" -std=c++17 \"$1\" -o \"$2/$3.exe\" && \"$2/$3.exe\"' dummy \"$file\" \"$dir\" \"$fileNameWithoutExt\""
-  }
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }
