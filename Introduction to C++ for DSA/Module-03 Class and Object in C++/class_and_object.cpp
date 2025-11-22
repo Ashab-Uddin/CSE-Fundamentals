@@ -15,10 +15,12 @@ int main(){
     // char temp[100] = "Ashab";
     // strcpy(a.name,temp);
 
-    cin>>a.name>>a.roll>>a.gpa;
-    cin>>b.name>>b.roll>>b.gpa;
+    // input with space
+    cin.getline(a.name,100);
+    cin>>a.roll>>a.gpa;
+    // cin>>b.name>>b.roll>>b.gpa;
 
     cout<<a.name<<" "<<a.roll<<" "<<a.gpa<<endl;
-    cout<<b.name<<" "<<b.roll<<" "<<b.gpa<<endl;
+    // cout<<b.name<<" "<<b.roll<<" "<<b.gpa<<endl;
     return 0;
 }
