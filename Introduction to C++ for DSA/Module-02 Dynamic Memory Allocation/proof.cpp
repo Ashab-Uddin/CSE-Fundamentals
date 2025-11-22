@@ -9,5 +9,6 @@ void fun(){
 }
 int main(){
     fun();
+    cout<<"Main ->"<<*p<<endl;
 
 }
