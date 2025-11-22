@@ -12,6 +12,7 @@ int main(){
     }
     b[3] =40;
     b[4] = 50;
+    delete[] a;
     for(int i=0;i<5;i++){
         cout<<b[i]<< " ";
     }
