@@ -9,11 +9,16 @@ class Student{
 int main(){
 
     Student a; //user define variable is a object
-    a.roll = 6;
-    a.gpa = 4.61;
-    char temp[100] = "Ashab";
-    strcpy(a.name,temp);
+    Student b;
+    // a.roll = 6;
+    // a.gpa = 4.61;
+    // char temp[100] = "Ashab";
+    // strcpy(a.name,temp);
 
-    cout<<a.name<<" "<<a.roll<<" "<<a.gpa;
+    cin>>a.name>>a.roll>>a.gpa;
+    cin>>b.name>>b.roll>>b.gpa;
+
+    cout<<a.name<<" "<<a.roll<<" "<<a.gpa<<endl;
+    cout<<b.name<<" "<<b.roll<<" "<<b.gpa<<endl;
     return 0;
 }
