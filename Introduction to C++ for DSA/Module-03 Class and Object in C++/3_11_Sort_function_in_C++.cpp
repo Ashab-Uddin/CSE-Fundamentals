@@ -7,7 +7,8 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>a[i];
     }
-    sort(a,a+n);
+    // sort(a,a+n);//asending sort
+    sort(a,a+n,greater<int>()); //desending sort
 
     for(int i=0;i<n;i++){
         cout<<a[i]<<" ";
