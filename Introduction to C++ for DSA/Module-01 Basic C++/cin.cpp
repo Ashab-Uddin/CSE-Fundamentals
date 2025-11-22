@@ -2,8 +2,10 @@
 using namespace std;
 int main(){
     int x;
-    cin >>x;
-    cout<<x<<"\n";
+    char c;
+    double y;
+    cin >>x >> c>> y;
+    cout<<x<<" "<<c<<" "<<y<<"\n";
 
     return 0;
 
