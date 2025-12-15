@@ -1,1 +1,1 @@
-hello
+Same String
