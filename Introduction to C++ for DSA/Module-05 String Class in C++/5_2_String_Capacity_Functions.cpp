@@ -5,5 +5,7 @@ int main(){
     cout<<s.size() <<endl;
     cout<<s.max_size() <<endl;
     cout<<s.capacity() <<endl;
+    s.clear();//clear or remove the string
+    cout<< s << endl;
     return 0;
 }
