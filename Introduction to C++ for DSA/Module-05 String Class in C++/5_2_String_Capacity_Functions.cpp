@@ -4,5 +4,6 @@ int main(){
     string s = "hello world";
     cout<<s.size() <<endl;
     cout<<s.max_size() <<endl;
+    cout<<s.capacity() <<endl;
     return 0;
 }
