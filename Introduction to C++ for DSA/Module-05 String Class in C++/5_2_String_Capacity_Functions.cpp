@@ -6,6 +6,11 @@ int main(){
     cout<<s.max_size() <<endl;
     cout<<s.capacity() <<endl;
     s.clear();//clear or remove the string
-    cout<< s << endl;
+    if(s.empty()== true){
+        cout<< "empty" <<endl;
+    }
+    else{
+        cout << "Not empty" <<endl;
+    }
     return 0;
 }
