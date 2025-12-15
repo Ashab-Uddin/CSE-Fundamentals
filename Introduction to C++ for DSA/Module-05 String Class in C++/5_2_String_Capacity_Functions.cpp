@@ -5,12 +5,14 @@ int main(){
     cout<<s.size() <<endl;
     cout<<s.max_size() <<endl;
     cout<<s.capacity() <<endl;
-    s.clear();//clear or remove the string
+    /*s.clear();//clear or remove the string
     if(s.empty()== true){
         cout<< "empty" <<endl;
     }
     else{
         cout << "Not empty" <<endl;
-    }
+    }*/
+   s.resize(4);
+   cout<<s<<endl;
     return 0;
 }
