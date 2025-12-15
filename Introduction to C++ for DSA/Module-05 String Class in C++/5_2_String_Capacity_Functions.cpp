@@ -12,7 +12,8 @@ int main(){
     else{
         cout << "Not empty" <<endl;
     }*/
-   s.resize(4);
+//    s.resize(4);
+s.resize(15,'a');
    cout<<s<<endl;
     return 0;
 }
