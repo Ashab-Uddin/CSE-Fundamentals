@@ -3,7 +3,9 @@ using namespace std;
 int main(){
     string s = "Hello World";
     string s1 = "Ashab Uddin";
-        s +=s1;
+        // s +=s1;
+        // using append function
+        s.append(s1);
         cout<<s<<endl;
     return 0;
 }
