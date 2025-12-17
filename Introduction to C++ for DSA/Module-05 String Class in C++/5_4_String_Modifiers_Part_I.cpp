@@ -6,7 +6,9 @@ int main(){
         // s +=s1; //best
         // using append function
         // s.append(s1);
-        s.push_back('A');//this function add a character back in string
+        // s.push_back('A');//this function add a character back in string
+
+        s.pop_back();
         cout<<s<<endl;
     return 0;
 }
