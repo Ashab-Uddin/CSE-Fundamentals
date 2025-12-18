@@ -9,7 +9,8 @@ int main(){
     //erase(start index)function erase the at last
     // s.erase(5); 
     // s.erase(5,3);
-    s.replace(6,5,"Bangladesh");//6->start index,5->delete character,replace string 
+    // s.replace(6,5,"Bangladesh");//6->start index,5->delete character,replace string 
+    s.insert(5,"spacesilo");
 
     cout<<s<<endl;
     return 0;
